@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Reserva</title>
+</head>
+<body>
+<h1>Controle de Reserva</h1>
+
+<form action="/reservas/buscarPorID" method="get">
+    <label for="reservaId">ID da Reserva:</label>
+    <input type="text" id="reservaId" name="reservaId" required>
+    <button type="submit">Buscar</button>
+</form>
+
+<form action="/reservas/buscarPorDataCheckin" method="get">
+    <label for="dataCheckin">Data de Check-in:</label>
+    <input type="date" id="dataCheckin" name="dataCheckin" required>
+    <button type="submit">Buscar</button>
+</form>
+
+</body>
+</html>

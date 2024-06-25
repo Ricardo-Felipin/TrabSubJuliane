@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Quartos</title>
+</head>
+<body>
+<h1>Consulta de Quartos</h1>
+
+<form action="/quartos/buscarTodosDisponiveis" method="get">
+    <button type="submit">Buscar Quartos Disponíveis</button>
+</form>
+
+<form action="/quartos/buscarPorQtdOcupantes" method="get">
+    <label for="qtdOcupantes">Quantidade de Ocupantes:</label>
+    <input type="text" id="qtdOcupantes" name="qtdOcupantes" required>
+    <button type="submit">Buscar</button>
+</form>
+
+<form action="/quartos/buscarTodosComVistaMarEDisponiveis" method="get">
+    <button type="submit">Buscar Quartos com Vista para o Mar Disponíveis</button>
+</form>
+
+</body>

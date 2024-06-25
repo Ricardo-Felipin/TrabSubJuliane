@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Reserva</title>
+</head>
+<body>
+<h1>Cadastro de Reserva</h1>
+
+<form action="/reservas" method="post">
+    <label for="clienteId">ID do Cliente:</label>
+    <input type="text" id="clienteId" name="clienteId" required>
+    <br>
+    <label for="dataEntrada">Data de Entrada:</label>
+    <input type="date" id="dataEntrada" name="dataEntrada" required>
+    <br>
+    <label for="dataSaida">Data de Saída:</label>
+    <input type="date" id="dataSaida" name="dataSaida" required>
+    <br>
+    <button type="submit">Salvar</button>
+</form>
+
+</body>
+</html>
